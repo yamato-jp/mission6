@@ -1,0 +1,206 @@
+/* ==============================
+   基本設定
+============================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', 'Yu Gothic', sans-serif;
+    background-color: #f0f2f5;
+    color: #2c3e50;
+    line-height: 1.7;
+}
+
+/* ==============================
+   ヘッダー・タイトル
+============================== */
+h1 {
+    background-color: #1a3a5c;
+    color: #ffffff;
+    text-align: center;
+    padding: 24px;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #1a3a5c;
+    font-size: 18px;
+    border-left: 5px solid #1a3a5c;
+    padding-left: 12px;
+    margin-bottom: 16px;
+}
+
+/* ==============================
+   コンテンツエリア
+============================== */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 28px;
+    margin-bottom: 28px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* ==============================
+   入力フォーム
+============================== */
+form {
+    background-color: #ffffff;
+    max-width: 560px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+label,
+p {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #1a3a5c;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #b0bec5;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    background-color: #fafafa;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #1a3a5c;
+    background-color: #ffffff;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 13px;
+    background-color: #1a3a5c;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2a5298;
+}
+
+/* ==============================
+   テーブル
+============================== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+th {
+    background-color: #1a3a5c;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-align: center;
+}
+
+td {
+    padding: 10px 16px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+tr:nth-child(even) {
+    background-color: #f4f6f8;
+}
+
+tr:hover {
+    background-color: #e8edf2;
+}
+
+/* ==============================
+   リスト
+============================== */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 15px;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+/* ==============================
+   投資回収点
+============================== */
+.breakeven {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a3a5c;
+    background-color: #e8edf2;
+    padding: 16px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* ==============================
+   ボタン・リンク
+============================== */
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 4px;
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 12px;
+    margin-top: 8px;
+    letter-spacing: 1px;
+}
+
+.btn-primary {
+    background-color: #1a3a5c;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #2a5298;
+}
+
+.btn-secondary {
+    background-color: #90a4ae;
+    color: #ffffff;
+}
+
+.btn-secondary:hover {
+    background-color: #607d8b;
+}
+
+/* ==============================
+   グラフ
+============================== */
+canvas {
+    display: block;
+    margin: 0 auto;
+}
